@@ -6,6 +6,7 @@ import banner1 from '../../../images/newArrival/beans.png'
 import banner2 from '../../../images/newArrival/cabbage.png'
 import banner3 from '../../../images/newArrival/cauliflower.png'
 import banner4 from '../../../images/newArrival/green-pepper.png'
+import banner5 from '../../../images/newArrival/tomato.png'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -40,9 +41,9 @@ const NewArrivalVegetable = () => {
         },
         {
             _id: 5,
-            img: "https://ibb.co/28hRbp3",
-            name: "SINGLE SIZE MINIMALIST BED",
-            price: "499",
+            img: banner5,
+            name: "Tomato",
+            price: "120",
         },
 
     ]

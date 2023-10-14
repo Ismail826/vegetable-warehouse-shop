@@ -25,7 +25,7 @@ const ManageItem = () => {
         console.log('delete btn work')
         const proceed = window.confirm("Are you sure?");
         if (proceed) {
-            const url = `http://localhost:5000/addItem/${id}`;
+            const url = `https://vegetable-warehouse-shop-server.vercel.app/addItem/${id}`;
             fetch(url, {
                 method: "DELETE",
             })

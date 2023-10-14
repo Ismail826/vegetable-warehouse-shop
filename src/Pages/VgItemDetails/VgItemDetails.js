@@ -8,7 +8,7 @@ const VgItemDetails = () => {
 
     useEffect(() => {
 
-        fetch(`http://localhost:5000/addItem/${vgItemId}`)
+        fetch(`https://vegetable-warehouse-shop-server.vercel.app/addItem/${vgItemId}`)
             .then((res) => res.json())
             .then(data => setVgDetails(data))
 
@@ -27,7 +27,7 @@ const VgItemDetails = () => {
         console.log(updateQuantity);
         setVgDetails(updateQuantity);
 
-        const url = `http://localhost:5000/addItem/${vgItemId}`;
+        const url = `https://vegetable-warehouse-shop-server.vercel.app/addItem/${vgItemId}`;
         fetch(url, {
             method: 'PUT',
             headers: {
@@ -53,7 +53,7 @@ const VgItemDetails = () => {
         setVgDetails(newQuantityUpdate);
         console.log(newQuantityUpdate);
 
-        const url = `http://localhost:5000/addItem/${vgItemId}`;
+        const url = `https://vegetable-warehouse-shop-server.vercel.app/addItem/${vgItemId}`;
         fetch(url, {
             method: 'PUT',
             headers: {

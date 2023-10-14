@@ -4,7 +4,7 @@ import React from "react";
 const Blogs = () => {
     return (
        
-            <div className="container mx-auto p-10 ml-24">
+            <div className="items-center mx-auto p-10 ml-24">
                 <div className="  mt-5 items-center">
                     <h4 className="text-start text-2xl">
                         Difference between javascript and nodejs?

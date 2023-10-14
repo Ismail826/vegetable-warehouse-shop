@@ -6,7 +6,7 @@ const useVegItems = () => {
 
     useEffect(() => {
 
-        const url = `http://localhost:5000/addItem`
+        const url = `https://vegetable-warehouse-shop-server.vercel.app/addItem`;
         fetch(url)
             .then(res => res.json())
             .then(data => setVegetable(data))

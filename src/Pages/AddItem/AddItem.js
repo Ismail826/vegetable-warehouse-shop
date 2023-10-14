@@ -16,7 +16,7 @@ const AddItem = () => {
         const addProduct = { name, description, price, quantity, supplier, photoUrl }
         console.log(addProduct);
 
-        const url = `http://localhost:5000/addItem`
+        const url = `https://vegetable-warehouse-shop-server.vercel.app/addItem`
         fetch(url, {
             method: "POST",
             headers: {
